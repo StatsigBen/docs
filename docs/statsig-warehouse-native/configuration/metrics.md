@@ -14,7 +14,7 @@ Metrics are organized within your Metrics Catalog.
 
 ## Creating Metrics
 
-Metrics are a combination a metric source, an aggregation, and optional filters and advanced settings. The metric source provides the raw data, and the aggregation defines how Statsig aggregates data across different granularities like user-level, group-level, or for daily timeseries.
+Metrics are a combination of a metric source, an aggregation, and optional filters and advanced settings. The metric source provides the raw data, and the aggregation defines how Statsig aggregates data across different granularities like user-level, group-level, or for daily timeseries.
 
 Metrics can support multiple units of analysis - for example a revenue metric can be used for a "User Level" and a "Store Level" experiment, as long as the metric source has a mapping for both ID types.
 
